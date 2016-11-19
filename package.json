@@ -1,0 +1,16 @@
+{
+  "name": "find-song-lyrics-from-name",
+  "version": "1.0.0",
+  "description": "Lambda function that simply interfaces with Genius's search API (Built for hackathon)",
+  "main": "lambda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krish Dholakiya <krishna.dholakiya@colorado.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "node-genius": "^1.1.0",
+    "request": "^2.79.0"
+  }
+}
